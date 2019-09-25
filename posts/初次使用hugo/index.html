@@ -2,7 +2,7 @@
 <html lang="zh-cn"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Categories - YB的个人博客</title>
+    <title>初次使用hugo - YB的个人博客</title>
     <base href="https://yb19960120.github.io/">
     <link rel="stylesheet" href="https://yb19960120.github.io/css/styles.css">
     <link rel="stylesheet" href="https://yb19960120.github.io/css/font.css">
@@ -19,13 +19,45 @@
     </nav>
 </header>
 
-<main id="terms">
-    <div id="collections" class="grape">
-        <div class="container">
-	    <h1>Categories</h1>
-	    <ul id="groups">
-	        
-            </ul>
+<main id="single">
+    <div id="post" class="white">
+	<div class="container">
+	    <div id="title">
+                <h1>初次使用hugo</h1>
+                <time datetime="2019-09-25T10:12:26&#43;0800">2019-09-25</time>
+
+	    </div>
+            <section class="post-content">
+                <ul>
+<li><p>FirstTime to use hugo</p>
+
+<pre><code>hugo new site myblog
+
+git clone git@github.com:shankar/hugo-grapes.git
+
+hugo server -t hugo-grapes --buildDrafts
+
+hugo new post/blog.md
+
+hugo --theme=hugo-grapes --baseUrl=&quot;https://yb19960120.github.io/&quot; --buildDrafts
+
+cd public
+
+git init
+
+git add .
+
+git commit -m &quot;first2hugo&quot;
+
+git remote add origin https://github.com/yb19960120/yb19960120.github.io.git
+
+git pull origin master --allow-unrelated-histories(我第二次换主题的时候用了这个)
+
+git push -u origin master
+</code></pre></li>
+</ul>
+
+            </section>
 	</div>
     </div>
 </main>
