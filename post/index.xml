@@ -18,7 +18,7 @@
       
       <guid>https://yb19960120.github.io/post/blog/</guid>
       <description> FirstTime to use hugo
-hugo new site myblog git clone https://github.com/digitalcraftsman/hugo-agency-theme hugo server -t hugo-agency-theme --buildDrafts hugo new post/blog.md hugo --theme=hugo-agency-theme --baseUrl=&amp;quot;https://lastknightcoder.github.io/&amp;quot; --buildDrafts cd public git init git add . git commit -m &amp;quot;我的 hugo 博客第一次提交&amp;quot; git remote add origin https://github.com/LastKnightCoder/lastknightcoder.github.io.git git pull origin master --allow-unrelated-histories(我第二次换主题的时候用了这个) git push -u origin master   </description>
+hugo new site myblog git clone https://github.com/digitalcraftsman/hugo-agency-theme hugo server -t hugo-agency-theme --buildDrafts hugo new post/blog.md hugo --theme=hugo-grapes --baseUrl=&amp;quot;https://yb19960120.github.io/&amp;quot; --buildDrafts cd public git init git add . git commit -m &amp;quot;first2hugo&amp;quot; git remote add origin https://github.com/yb19960120/yb19960120.github.io.git git pull origin master --allow-unrelated-histories(我第二次换主题的时候用了这个) git push -u origin master   </description>
     </item>
     
   </channel>
